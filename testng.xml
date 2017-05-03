@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="VibeBranch_SmokeSuite">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="common.ExtentReportNG" />
+  </listeners>
+
+    
+<parameter name="browser" value="firefox"/>
+<parameter name="appUrl" value="http://monat-stage.vibeoffice.com/"/>
+
+  <test name="SmokeTest">
+  
+    <classes>  
+      	  
+       <class name="common.DriverInitializer"/> 
+        <class name="common.LoginCredentials"/>    
+        
+            
+    	
+    	
+   
+    <class name="vibe.mywebsite.tests.MyWebsite_Tests" /> 
+       
+ 
+   	<class name="vibe.Notifications.tests.NotificationTests"> 
+   		 <methods>   		
+   		     
+   		  <include name="loginAsUserFromNotifications"></include>
+   		 	<include name="Notification_ValidateTitlesCounts"></include>
+   		 	<include name="notification_VerifyEmailAndForwardThroughMessage"></include> 
+   		 	<include name="notification_marKAllSeen"></include> 
+   		 	<include name="loginAsAdminFromNotifications"></include> 	
+   		 		 	
+   		</methods>
+      </class>	  
+ 	    
+ 	  
+  	 <class name="vibe.reports.tests.ReportsTest"> 
+			<methods>
+        		<include name="reports_ValidateAllTablesWithTitles"></include>
+        		<include name="temp"></include>        			        					
+        		
+        	</methods>
+ 		</class>   
+
+	   <class name="vibe.tasks.tests.TasksTest"> 
+		<methods>	
+			<include name="enableAllTasksWidgets"></include> 
+			<include name="loginAsUserForTasks"></include> 	
+			<include name="dragAllTasksWidgets"></include> 
+			<include name="searchTaskInWidget"></include>  
+		    <include name="addTodaysTasks"></include>			
+			<include name="markTaskAsComplete"></include> 
+			<include name="markTaskAsIncomplete"></include>
+			<include name="loginAsAdminFromTasks"></include>			
+			
+	   	</methods>
+	</class>  	
+	
+ 	
+ 	 	<class name="vibe.marketing.companyNews.tests.NewsTests"> 
+			<methods>
+        		<include name="news_VerifyInOfficeAndUser"></include>
+        		<include name="news_SaveAsDraftndVerifyUserSide"></include>
+        		<include name="news_DeleteNews"></include> 
+        						 
+        	</methods>
+ 	</class>    
+ 	
+ 	
+ 	<class name="vibe.marketing.ads.tests.AdsTests"> 
+			<methods>	
+			    <include name="ads_CreateNewAds"></include>	 
+        	</methods>
+	</class >  
+ 	
+ 	
+	
+	<class name="vibe.marketing.YouTube.tests.YouTubeTest"> 
+			<methods>   
+			 <include name="youTube_uploadVideoInYouTube"></include>			 			 
+			 <include name="youTube_deleteVideo"></include>	   		
+        		    				 
+        	</methods>
+ 	</class>
+ 	
+ 	
+   	
+   			<class name="vibe.contacts2.tests.BusinessContacts_Tests">
+           <methods>              
+               <include name="addBusinessContact"></include>    
+               <include name="searchBussinesContact"></include>  
+              <include name="addCallScripts2BusinessContact"></include>  
+               <include name="addNotes2BusinessContact"></include>    
+              <include name="sendMesg2BusinessContact"></include>  
+              <include name="setAppoinment2BusinessContact"></include>
+               <include name="createTask4BusinessContact"></include>      
+               <include name="addGroup"></include>
+              <include name="addContacts2Group"></include>
+             <include name="deletBusinessContact"></include>
+           </methods>
+       </class>
+ 
+   	
+ 	  <class name="vibe.monatGear.tests.MonatGearTest"> 
+   		 <methods>
+   		  <include name="validateUSMonatGear"></include>	
+ 		</methods>
+   	</class>
+
+ 	 
+ 	
+ 	
+   </classes>
+  </test>
+</suite> 

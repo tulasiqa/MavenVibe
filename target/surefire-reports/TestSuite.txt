@@ -1,0 +1,443 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 31, Errors: 0, Skipped: 0, Time elapsed: 1,541.791 s <<< FAILURE! - in TestSuite
+addWebsite(vibe.mywebsite.tests.MyWebsite_Tests)  Time elapsed: 422.934 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+Command duration or timeout: 30.00 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+*** Element info: {Using=xpath, value=//*[@id='users']/table/tbody}
+	at vibe.mywebsite.tests.MyWebsite_Tests.addWebsite(MyWebsite_Tests.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+
+manageWebsite(vibe.mywebsite.tests.MyWebsite_Tests)  Time elapsed: 62.178 s  <<< FAILURE!
+java.lang.AssertionError: http://vibs-535.monat-stage.vibeoffice.com website not found. expected [true] but found [false]
+	at vibe.mywebsite.tests.MyWebsite_Tests.manageWebsite(MyWebsite_Tests.java:65)
+
+loginAsUserFromNotifications(vibe.Notifications.tests.NotificationTests)  Time elapsed: 450.634 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+Command duration or timeout: 30.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+*** Element info: {Using=xpath, value=//*[@id='users']/table/tbody}
+	at vibe.Notifications.tests.NotificationTests.loginAsUserFromNotifications(NotificationTests.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+
+Notification_ValidateTitlesCounts(vibe.Notifications.tests.NotificationTests)  Time elapsed: 430.326 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+Command duration or timeout: 30.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+*** Element info: {Using=xpath, value=//*[@id='users']/table/tbody}
+	at vibe.Notifications.tests.NotificationTests.Notification_ValidateTitlesCounts(NotificationTests.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='users']/table/tbody"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+
+reports_ValidateAllTablesWithTitles(vibe.reports.tests.ReportsTest)  Time elapsed: 2.097 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.reports.tests.ReportsTest.reports_ValidateAllTablesWithTitles(ReportsTest.java:22)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.reports.tests.ReportsTest.reports_ValidateAllTablesWithTitles(ReportsTest.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.reports.tests.ReportsTest.reports_ValidateAllTablesWithTitles(ReportsTest.java:22)
+
+temp(vibe.reports.tests.ReportsTest)  Time elapsed: 6.027 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.reports.tests.ReportsTest.temp(ReportsTest.java:29)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.reports.tests.ReportsTest.temp(ReportsTest.java:29)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.reports.tests.ReportsTest.temp(ReportsTest.java:29)
+
+enableAllTasksWidgets(vibe.tasks.tests.TasksTest)  Time elapsed: 2.176 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.enableAllTasksWidgets(TasksTest.java:31)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.enableAllTasksWidgets(TasksTest.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.enableAllTasksWidgets(TasksTest.java:31)
+
+loginAsUserForTasks(vibe.tasks.tests.TasksTest)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.loginAsUserForTasks(TasksTest.java:46)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.loginAsUserForTasks(TasksTest.java:46)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.loginAsUserForTasks(TasksTest.java:46)
+
+dragAllTasksWidgets(vibe.tasks.tests.TasksTest)  Time elapsed: 1.064 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.dragAllTasksWidgets(TasksTest.java:90)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.dragAllTasksWidgets(TasksTest.java:90)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.dragAllTasksWidgets(TasksTest.java:90)
+
+searchTaskInWidget(vibe.tasks.tests.TasksTest)  Time elapsed: 1.835 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.searchTaskInWidget(TasksTest.java:123)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.searchTaskInWidget(TasksTest.java:123)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.searchTaskInWidget(TasksTest.java:123)
+
+addTodaysTasks(vibe.tasks.tests.TasksTest)  Time elapsed: 1.191 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.addTodaysTasks(TasksTest.java:189)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.addTodaysTasks(TasksTest.java:189)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.addTodaysTasks(TasksTest.java:189)
+
+markTaskAsComplete(vibe.tasks.tests.TasksTest)  Time elapsed: 0.982 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.markTaskAsComplete(TasksTest.java:269)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.markTaskAsComplete(TasksTest.java:269)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.markTaskAsComplete(TasksTest.java:269)
+
+markTaskAsIncomplete(vibe.tasks.tests.TasksTest)  Time elapsed: 1.056 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.markTaskAsIncomplete(TasksTest.java:305)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.markTaskAsIncomplete(TasksTest.java:305)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.markTaskAsIncomplete(TasksTest.java:305)
+
+loginAsAdminFromTasks(vibe.tasks.tests.TasksTest)  Time elapsed: 1.086 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.tasks.tests.TasksTest.loginAsAdminFromTasks(TasksTest.java:79)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.loginAsAdminFromTasks(TasksTest.java:79)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.tasks.tests.TasksTest.loginAsAdminFromTasks(TasksTest.java:79)
+
+news_VerifyInOfficeAndUser(vibe.marketing.companyNews.tests.NewsTests)  Time elapsed: 1.07 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.companyNews.tests.NewsTests.news_VerifyInOfficeAndUser(NewsTests.java:26)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_VerifyInOfficeAndUser(NewsTests.java:26)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_VerifyInOfficeAndUser(NewsTests.java:26)
+
+news_SaveAsDraftndVerifyUserSide(vibe.marketing.companyNews.tests.NewsTests)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.companyNews.tests.NewsTests.news_SaveAsDraftndVerifyUserSide(NewsTests.java:52)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_SaveAsDraftndVerifyUserSide(NewsTests.java:52)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_SaveAsDraftndVerifyUserSide(NewsTests.java:52)
+
+news_DeleteNews(vibe.marketing.companyNews.tests.NewsTests)  Time elapsed: 1.04 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.companyNews.tests.NewsTests.news_DeleteNews(NewsTests.java:202)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_DeleteNews(NewsTests.java:202)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.companyNews.tests.NewsTests.news_DeleteNews(NewsTests.java:202)
+
+ads_CreateNewAds(vibe.marketing.ads.tests.AdsTests)  Time elapsed: 1.066 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.ads.tests.AdsTests.ads_CreateNewAds(AdsTests.java:37)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.ads.tests.AdsTests.ads_CreateNewAds(AdsTests.java:37)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.ads.tests.AdsTests.ads_CreateNewAds(AdsTests.java:37)
+
+youTube_uploadVideoInYouTube(vibe.marketing.YouTube.tests.YouTubeTest)  Time elapsed: 11.469 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_uploadVideoInYouTube(YouTubeTest.java:15)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_uploadVideoInYouTube(YouTubeTest.java:15)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_uploadVideoInYouTube(YouTubeTest.java:15)
+
+youTube_deleteVideo(vibe.marketing.YouTube.tests.YouTubeTest)  Time elapsed: 2.096 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_deleteVideo(YouTubeTest.java:31)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_deleteVideo(YouTubeTest.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.marketing.YouTube.tests.YouTubeTest.youTube_deleteVideo(YouTubeTest.java:31)
+
+addBusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.075 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.addBusinessContact(BusinessContacts_Tests.java:44)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addBusinessContact(BusinessContacts_Tests.java:44)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addBusinessContact(BusinessContacts_Tests.java:44)
+
+searchBussinesContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.111 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.searchBussinesContact(BusinessContacts_Tests.java:66)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.searchBussinesContact(BusinessContacts_Tests.java:66)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.searchBussinesContact(BusinessContacts_Tests.java:66)
+
+addCallScripts2BusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 8.082 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.addCallScripts2BusinessContact(BusinessContacts_Tests.java:135)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addCallScripts2BusinessContact(BusinessContacts_Tests.java:135)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addCallScripts2BusinessContact(BusinessContacts_Tests.java:135)
+
+addNotes2BusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.addNotes2BusinessContact(BusinessContacts_Tests.java:184)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addNotes2BusinessContact(BusinessContacts_Tests.java:184)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addNotes2BusinessContact(BusinessContacts_Tests.java:184)
+
+sendMesg2BusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.sendMesg2BusinessContact(BusinessContacts_Tests.java:203)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.sendMesg2BusinessContact(BusinessContacts_Tests.java:203)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.sendMesg2BusinessContact(BusinessContacts_Tests.java:203)
+
+setAppoinment2BusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.048 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.setAppoinment2BusinessContact(BusinessContacts_Tests.java:226)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.setAppoinment2BusinessContact(BusinessContacts_Tests.java:226)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.setAppoinment2BusinessContact(BusinessContacts_Tests.java:226)
+
+createTask4BusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 4.029 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.createTask4BusinessContact(BusinessContacts_Tests.java:252)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.createTask4BusinessContact(BusinessContacts_Tests.java:252)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.createTask4BusinessContact(BusinessContacts_Tests.java:252)
+
+addGroup(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.042 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.addGroup(BusinessContacts_Tests.java:284)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addGroup(BusinessContacts_Tests.java:284)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addGroup(BusinessContacts_Tests.java:284)
+
+addContacts2Group(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.031 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.addContacts2Group(BusinessContacts_Tests.java:392)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addContacts2Group(BusinessContacts_Tests.java:392)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.addContacts2Group(BusinessContacts_Tests.java:392)
+
+deletBusinessContact(vibe.contacts2.tests.BusinessContacts_Tests)  Time elapsed: 1.016 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.contacts2.tests.BusinessContacts_Tests.deletBusinessContact(BusinessContacts_Tests.java:546)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.deletBusinessContact(BusinessContacts_Tests.java:546)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.contacts2.tests.BusinessContacts_Tests.deletBusinessContact(BusinessContacts_Tests.java:546)
+
+validateUSMonatGear(vibe.monatGear.tests.MonatGearTest)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f
+	at vibe.monatGear.tests.MonatGearTest.validateUSMonatGear(MonatGearTest.java:14)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at vibe.monatGear.tests.MonatGearTest.validateUSMonatGear(MonatGearTest.java:14)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at vibe.monatGear.tests.MonatGearTest.validateUSMonatGear(MonatGearTest.java:14)
+

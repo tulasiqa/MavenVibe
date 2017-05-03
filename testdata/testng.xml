@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Vibe_TestSuite" parallel="none">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="common.ExtentReportNG" />
+  </listeners>
+  
+  
+  
+<parameter name="browser" value="firefox"/>
+<!--parameter name="appUrl" value="http://branch-1-7.vibeoffice.com"/-->
+<!--parameter name="appUrl" value="http://yevo.vibeofficestage.com/"/-->
+<parameter name="appUrl" value="http://vibeofficestage.com/"/>
+<!--parameter name="appUrl" value="ec2-54-226-112-194.compute-1.amazonaws.com/users/sign_in/"/-->
+  <test name="Vibe_RegressionTest">
+    <classes>    	  
+       <class name="common.DriverInitializer"/> 
+        <class name="common.LoginCredentials"/> 
+        
+        
+         <!--class name="vibe.tests.Smoke1"/-->
+	<!--class name="vibe.enrollment.tests.EnrollTests"/-->
+	<!--class name="vibe.tasks.tests.TasksTest"/-->
+	<class name="vibe.marketing.ads.tests.AdsTests"/>
+	
+		  	  	       	    
+      
+       
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

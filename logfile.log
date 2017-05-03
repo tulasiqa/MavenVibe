@@ -1,0 +1,166 @@
+2017-05-02 12:03:50,203 INFO  [Logger] inside login() method 
+2017-05-02 12:03:50,219 INFO  [Logger] inside logIn method. 
+2017-05-02 12:03:51,961 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='user_login'] 
+2017-05-02 12:03:51,997 INFO  [Logger] Failed!! Unable to enter a text into a textbox.//*[@id='user_login'] 
+2017-05-02 12:03:52,020 INFO  [Logger] Failed!! Unable to enter a text into a textbox.//*[@id='user_password'] 
+2017-05-02 12:03:52,078 INFO  [Logger] Failed!! Unable to click on a button.//*[@id='new_user']/div[1]/input 
+2017-05-02 12:03:52,119 INFO  [Logger] inside addWebsite() Test. 
+2017-05-02 12:03:52,154 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:03:52,163 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:04:01,241 INFO  [Logger] Failed!! Unable to wait on this element .btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:09:18,433 INFO  [Logger] inside login() method 
+2017-05-02 12:09:18,447 INFO  [Logger] inside logIn method. 
+2017-05-02 12:09:20,201 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='user_login'] 
+2017-05-02 12:09:20,232 INFO  [Logger] Failed!! Unable to enter a text into a textbox.//*[@id='user_login'] 
+2017-05-02 12:09:20,258 INFO  [Logger] Failed!! Unable to enter a text into a textbox.//*[@id='user_password'] 
+2017-05-02 12:09:20,300 INFO  [Logger] Failed!! Unable to click on a button.//*[@id='new_user']/div[1]/input 
+2017-05-02 12:09:20,333 INFO  [Logger] inside addWebsite() Test. 
+2017-05-02 12:09:20,356 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:09:20,364 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:09:52,125 INFO  [Logger] Failed!! Unable to wait on this element .btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:10:22,231 INFO  [Logger] Failed!! Unable to click on an element..btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:10:52,289 INFO  [Logger] Failed!! Unable to wait on this element #pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:11:22,407 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:11:52,572 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:12:22,688 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:12:52,756 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:13:22,761 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:13:52,782 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:14:22,891 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:14:53,017 INFO  [Logger] Failed!! Unable to click on an element.//*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:15:23,112 INFO  [Logger] Failed!! Unable to wait on this element .table>tfoot>tr>td 
+2017-05-02 12:15:23,127 INFO  [Logger] inside verifyUserPresent() method. 
+2017-05-02 12:15:53,251 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='users']/table/tbody 
+2017-05-02 12:16:23,283 INFO  [Logger] inside manageWebsite() method. 
+2017-05-02 12:16:23,283 INFO  [Logger] Inside verifyWebsiteIsPresent() method. 
+2017-05-02 12:16:23,298 INFO  [Logger] Inside go2MyWebsite() method. 
+2017-05-02 12:16:55,388 INFO  [Logger] Failed!! Unable to wait on this element div#active_websites 
+2017-05-02 12:17:25,446 INFO  [Logger] http://vibs-535.monat-stage.vibeoffice.com website match not found in available websites. 
+2017-05-02 12:17:25,461 INFO  [Logger] http://vibs-535.monat-stage.vibeoffice.com website not found. 
+2017-05-02 12:17:25,461 INFO  [Logger] inside userLogout() method 
+2017-05-02 12:18:00,551 INFO  [Logger] Failed!! Unable to wait on this element div#page > div.caution_msg > a 
+2017-05-02 12:18:30,654 INFO  [Logger] Failed!! unable to click on a Link.div#page > div.caution_msg > a 
+2017-05-02 12:18:30,654 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:18:30,654 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:19:29,900 INFO  [Logger] Failed!! Unable to wait on this element .btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:20:00,006 INFO  [Logger] Failed!! Unable to click on an element..btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:20:30,107 INFO  [Logger] Failed!! Unable to wait on this element #pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:21:00,210 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:21:30,307 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:22:00,413 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:22:30,507 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:23:00,618 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:23:30,720 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:24:00,817 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:24:30,952 INFO  [Logger] Failed!! Unable to click on an element.//*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:25:01,075 INFO  [Logger] Failed!! Unable to wait on this element .table>tfoot>tr>td 
+2017-05-02 12:25:01,080 INFO  [Logger] inside verifyUserPresent() method. 
+2017-05-02 12:25:31,182 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='users']/table/tbody 
+2017-05-02 12:26:01,262 INFO  [Logger] Validate Panel Titles, Alert,Notification, All counts 
+2017-05-02 12:26:01,268 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:26:01,272 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:26:40,368 INFO  [Logger] Failed!! Unable to wait on this element .btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:27:10,463 INFO  [Logger] Failed!! Unable to click on an element..btn.btn-info.advanced-search.pull-right 
+2017-05-02 12:27:40,554 INFO  [Logger] Failed!! Unable to wait on this element #pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:28:10,646 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:28:40,740 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_first_name 
+2017-05-02 12:29:10,841 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:29:40,939 INFO  [Logger] Failed!! Unable to clear the text from a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:30:11,036 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_last_name 
+2017-05-02 12:30:41,136 INFO  [Logger] Failed!! Unable to enter a text into a textbox.#pyr_core_advanced_search_form_consultant_id 
+2017-05-02 12:31:11,239 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:31:41,337 INFO  [Logger] Failed!! Unable to click on an element.//*[@id='advanced-modal']/div/div[1]/div[3]/button 
+2017-05-02 12:32:11,432 INFO  [Logger] Failed!! Unable to wait on this element .table>tfoot>tr>td 
+2017-05-02 12:32:11,438 INFO  [Logger] inside verifyUserPresent() method. 
+2017-05-02 12:32:41,496 INFO  [Logger] Failed!! Unable to wait on this element //*[@id='users']/table/tbody 
+2017-05-02 12:33:11,605 INFO  [Logger] Access Notifications, and select 'Messsage' from Leftpanel. 
+Based on message content, Select email and reply to mailer.  
+2017-05-02 12:33:11,610 INFO  [Logger] Navigate to Mails Notification screen by selecting Notification Icon on the top. 
+2017-05-02 12:33:34,581 INFO  [Logger] Failed!! Unable to wait on this element div#navbar-collapsable > ul#special-menu > li > a > i.ic-icon-regular.ic-icon-inbox 
+2017-05-02 12:33:35,609 INFO  [Logger] Failed!! Unable to click on an element.div#navbar-collapsable > ul#special-menu > li > a > i.ic-icon-regular.ic-icon-inbox 
+2017-05-02 12:33:38,626 INFO  [Logger] Failed!! Unable to click on an element.#special-menu > li.open > ul > li > a 
+2017-05-02 12:33:42,640 INFO  [Logger] SelectMessage Recipient from Notification Panel . 
+2017-05-02 12:33:43,706 INFO  [Logger] inside userLogout() method 
+2017-05-02 12:33:49,759 INFO  [Logger] Failed!! Unable to wait on this element div#page > div.caution_msg > a 
+2017-05-02 12:33:50,791 INFO  [Logger] Failed!! unable to click on a Link.div#page > div.caution_msg > a 
+2017-05-02 12:33:50,791 INFO  [Logger] Fetch All types of reports 
+Retrive all Constriants with respective to Reports.
+ 
+2017-05-02 12:33:50,806 INFO  [Logger] Navigating to Reports  
+2017-05-02 12:33:51,837 INFO  [Logger] Failed!! Unable to click on an element.#navbar-collapsable > ul > li:nth-child(5) > a > span.text 
+2017-05-02 12:33:58,931 INFO  [Logger] inside enableAllTasksWidgets() Test 
+2017-05-02 12:33:58,931 INFO  [Logger] inside logIn method. 
+2017-05-02 12:34:00,033 INFO  [Logger] Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vm-win7-qa1', ip: '10.3.150.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b272867-ebb9-41cf-b357-8c97681cb20f 
+2017-05-02 12:34:00,039 INFO  [Logger] inside setWidgetStatus() method. 
+2017-05-02 12:34:00,043 INFO  [Logger] inside go2WidgetsPage() method 
+2017-05-02 12:34:01,092 INFO  [Logger] inside loginAsUserForTasks() Test 
+2017-05-02 12:34:01,092 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:34:01,108 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:34:02,139 INFO  [Logger] inside dragAllTasksWidgets() Test 
+2017-05-02 12:34:02,139 INFO  [Logger] inside navigate2BusinessTasks() method. 
+2017-05-02 12:34:03,224 INFO  [Logger] inside searchTaskInWidget() Test 
+2017-05-02 12:34:03,229 INFO  [Logger] inside navigate2BusinessTasks() method. 
+2017-05-02 12:34:05,043 INFO  [Logger] inside addTodaysTasks() Test 
+2017-05-02 12:34:05,046 INFO  [Logger] inside navigate2BusinessTasks() method. 
+2017-05-02 12:34:06,208 INFO  [Logger] inside markTaskAsComplete() Test 
+2017-05-02 12:34:06,211 INFO  [Logger] inside navigate2BusinessTasks() method. 
+2017-05-02 12:34:07,232 INFO  [Logger] inside markTaskAsIncomplete() Test 
+2017-05-02 12:34:07,236 INFO  [Logger] inside navigate2BusinessTasks() method. 
+2017-05-02 12:34:08,283 INFO  [Logger] inside enableAllTasksWidgets() Test 
+2017-05-02 12:34:08,298 INFO  [Logger] inside adminLogin() Method... 
+2017-05-02 12:34:08,298 INFO  [Logger] inside logOut method. 
+2017-05-02 12:34:08,298 INFO  [Logger] inside back2Office() method. 
+2017-05-02 12:34:09,353 INFO  [Logger] Entered into news_VerifyInOfficeAndUser test 
+2017-05-02 12:34:10,439 INFO  [Logger] Create a company News with Title - 'UnPublished News 380' for subscribers of ' [Ljava.lang.String;@1bf7cabb' . 
+2017-05-02 12:34:11,470 INFO  [Logger] Delete the Company News  
+2017-05-02 12:34:11,486 INFO  [Logger] Navigate to Marketing >> Company News Screen 
+2017-05-02 12:34:12,526 INFO  [Logger] Entered into ads_CreateNewAds() Test 
+2017-05-02 12:34:13,592 INFO  [Logger] Navigate Marketing >> Upload Videos to Youtubes. 
+2017-05-02 12:34:14,623 ERROR [TestBase] Failed!! Not able to naviagte to Youtube Screen 
+2017-05-02 12:34:14,623 INFO  [Logger] Entered into addNewVideo(String title) method 
+2017-05-02 12:34:15,660 INFO  [Logger] Failed!! Unable to click on a button.div.panel-heading > div.panel-tools > a 
+2017-05-02 12:34:16,686 INFO  [Logger] Failed!! Unable to clear the text from a textbox.input#pyr_community_video_title 
+2017-05-02 12:34:17,739 INFO  [Logger] Failed!! Unable to clear the text from a textbox.textarea#pyr_community_video_description 
+2017-05-02 12:34:18,764 INFO  [Logger] Failed!! Unable to enter a text into a textbox.input#pyr_community_video_title 
+2017-05-02 12:34:19,956 INFO  [Logger] Failed!! Unable to enter a text into a textbox.textarea#pyr_community_video_description 
+2017-05-02 12:34:20,988 INFO  [Logger] Failed!! Unable to click on a button.input#continue_video 
+2017-05-02 12:34:24,034 INFO  [Logger] Failed!! Unable to wait on this element input#pyr_community_video_upload 
+2017-05-02 12:34:24,034 INFO  [Logger] inside uploadFile() method. 
+2017-05-02 12:34:25,061 INFO  [Logger] Navigate Marketing >> Upload Videos to Youtubes. 
+2017-05-02 12:34:26,132 ERROR [TestBase] Failed!! Not able to naviagte to Youtube Screen 
+2017-05-02 12:34:27,157 INFO  [Logger] inside addBusinessContact() Test 
+2017-05-02 12:34:27,157 INFO  [Logger] inside loginAsUserFromAdvanced() method 
+2017-05-02 12:34:27,172 INFO  [Logger] inside go2Users() method. 
+2017-05-02 12:34:28,232 INFO  [Logger] inside searchBussinesContact Test 
+2017-05-02 12:34:28,232 INFO  [Logger] inside go2ContactsPage() method.  
+2017-05-02 12:34:29,343 INFO  [Logger] inside addCallScripts2BusinessContact() Test 
+2017-05-02 12:34:29,359 INFO  [Logger] inside userLogout() method 
+2017-05-02 12:34:35,410 INFO  [Logger] Failed!! Unable to wait on this element div#page > div.caution_msg > a 
+2017-05-02 12:34:36,425 INFO  [Logger] Failed!! unable to click on a Link.div#page > div.caution_msg > a 
+2017-05-02 12:34:36,425 INFO  [Logger] inside go2adminPage() method.  
+2017-05-02 12:34:37,441 INFO  [Logger] inside addNotes2BusinessContact() Test 
+2017-05-02 12:34:37,441 INFO  [Logger] inside addNotes2Contacts() method. 
+2017-05-02 12:34:37,457 INFO  [Logger] inside go2ContactsPage() method.  
+2017-05-02 12:34:38,488 INFO  [Logger] inside sendMesg2BusinessContact() Test 
+2017-05-02 12:34:38,488 INFO  [Logger] Edit my Profile and navigate to Notifications page. 
+2017-05-02 12:34:38,503 INFO  [Logger] inside back2Office() method. 
+2017-05-02 12:34:39,535 INFO  [Logger] inside setAppoinment2BusinessContact() Test 
+2017-05-02 12:34:39,535 INFO  [Logger] inside go2ContactsPage() method.  
+2017-05-02 12:34:40,583 INFO  [Logger] inside createTask4BusinessContact() Test 
+2017-05-02 12:34:43,596 INFO  [Logger] inside createTaskFromContacts() method. 
+2017-05-02 12:34:43,596 INFO  [Logger] inside go2ContactsPage() method.  
+2017-05-02 12:34:44,612 INFO  [Logger] inside addGroup Test 
+2017-05-02 12:34:44,612 INFO  [Logger] inside addGroup() method. 
+2017-05-02 12:34:44,627 INFO  [Logger] inside go2Groups() method. 
+2017-05-02 12:34:45,654 INFO  [Logger] inside addContacts2Group Test 
+2017-05-02 12:34:45,654 INFO  [Logger] inside addGroup() method. 
+2017-05-02 12:34:45,669 INFO  [Logger] inside go2Groups() method. 
+2017-05-02 12:34:46,685 INFO  [Logger] inside deletBusinessContact() Test 
+2017-05-02 12:34:46,685 INFO  [Logger] inside go2ContactsPage() method.  
+2017-05-02 12:34:47,701 INFO  [Logger] inside logOut method. 
+2017-05-02 12:34:47,716 INFO  [Logger] inside back2Office() method. 
